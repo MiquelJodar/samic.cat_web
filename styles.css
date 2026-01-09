@@ -3,8 +3,30 @@
 body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto}
 a{color:inherit}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:16px}
-.header{display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{font-weight:800;letter-spacing:.06em}
+.header{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.brand{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:4px;
+  text-decoration:none;
+}
+
+.brand-logo{height:28px;width:auto;display:block}
+
+.brand-sub{
+  font-size:12px;
+  line-height:1.2;
+  color:#777;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
 .nav{display:flex;gap:14px;flex-wrap:wrap}
 .nav a{text-decoration:none;opacity:.9}
 .nav a:hover{opacity:1;text-decoration:underline}
