@@ -84,3 +84,5 @@ a{color:inherit}
   cursor:zoom-out;
 }
 .brand-logo{height:28px;width:auto;display:block}
+.brand{display:flex;flex-direction:column;gap:4px;align-items:flex-start;text-decoration:none}
+.brand-sub{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#777}
